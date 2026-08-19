@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Soporte de RecibosApp</title>
+<style>
+  :root {
+    color-scheme: light;
+    --green: #1E8E3E;
+    --text: #1c1c1e;
+    --text-secondary: #6b7280;
+    --bg: #ffffff;
+    --bg-alt: #f4f6f5;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+  header {
+    background: var(--green);
+    color: #ffffff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 1.6rem;
+  }
+  header p {
+    margin: 0;
+    opacity: 0.92;
+    font-size: 0.98rem;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+  section {
+    margin-bottom: 36px;
+  }
+  h2 {
+    font-size: 1.05rem;
+    color: var(--green);
+    margin: 0 0 12px;
+  }
+  .contact-card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  .contact-card a {
+    color: var(--green);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .contact-card a:hover { text-decoration: underline; }
+  dl {
+    margin: 0;
+  }
+  dt {
+    font-weight: 600;
+    margin-top: 18px;
+  }
+  dt:first-child { margin-top: 0; }
+  dd {
+    margin: 4px 0 0;
+    color: var(--text-secondary);
+  }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Soporte de RecibosApp</h1>
+    <p>Gestor de recibos de la CFE — escanea, organiza y comparte</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contacto</h2>
+      <div class="contact-card">
+        <p style="margin:0 0 8px;">¿Tienes un problema, duda o sugerencia sobre RecibosApp? Escríbenos y te respondemos lo antes posible.</p>
+        <a href="mailto:abmconsultores49@gmail.com">abmconsultores49@gmail.com</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Preguntas frecuentes</h2>
+      <dl>
+        <dt>¿Mis recibos se guardan en algún servidor?</dt>
+        <dd>No. RecibosApp guarda toda la información únicamente en tu dispositivo. No se sube nada a internet.</dd>
+
+        <dt>El código de barras no se escanea, ¿qué hago?</dt>
+        <dd>Puedes ingresar el número del recibo manualmente desde la misma pantalla de escaneo, sin necesidad de la cámara.</dd>
+
+        <dt>¿Cómo comparto mis recibos?</dt>
+        <dd>Desde "Compartir información" en la pantalla principal puedes exportar tus recibos y enviarlos por WhatsApp, correo o cualquier otra app.</dd>
+
+        <dt>¿Cómo elimino recibos guardados?</dt>
+        <dd>Desde "Eliminar recibos" en la pantalla principal puedes borrar un listado completo (Pagados o Faltantes).</dd>
+      </dl>
+    </section>
+  </main>
+
+  <footer>
+    RecibosApp · ABM Consultores
+  </footer>
+</body>
+</html>
